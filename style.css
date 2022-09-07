@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+/* This sovlves the fixed stop problem */
+.navbar::before {
+  display: block;
+  content: "";
+  height: 30px;
+}
+
+/* BeakPoint for Medium */
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
